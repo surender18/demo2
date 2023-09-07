@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="game.css" />
+  <script src="game1.js"></script>
+</head>
+
+<body>
+  <script src="game1.js"></script>
+  <header>
+    <nav class="navbar">
+      <div id="logo">
+        <img src="/images/logo.png" alt="" />
+        <h2>code with Rahul</h2>
+      </div>
+      <div class="navoptions">
+        <h4><a href="#" title="Education">Education</a></h4>
+        <h4><a href="/game.html" title="Projects">Projects</a></h4>
+        <h4><a href="#" title="Skills">Skills</a></h4>
+        <h4><a href="#" title="Hobby">Hobby</a></h4>
+        <h4><a href="#" title="About">About</a></h4>
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="game">
+      <div id="rpsimg">
+        <button id="rock" onclick="rock()">
+          <img src="images/rock2.jpeg" alt="rock" />
+        </button>
+        <button id="paper" onclick="paper()">
+          <img src=" images/paper1.jpeg" alt="paper" />
+        </button>
+        <button id="scissor" onclick="scissor()">
+          <img src="images/scissor3.jpeg" alt="scissor" />
+        </button>
+      </div>
+      <div id="scoreBoard">
+        <p id="moves">Choose a move from above Icons</p>
+        <p id="result"></p>
+        <h2>Score</h2>
+          <table>
+            <thead>
+              <th>Win</th>
+              <th>Lose</th>
+              <th>Tie</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="wins">0</td>
+                <td id="loses">0</td>
+                <td id="ties">0</td>
+              </tr>
+            </tbody>
+          </table>
+          <button id="resetBtn" onclick="reset()">reset</button>
+        </div>
+</main>
+</body>
+
+</html>

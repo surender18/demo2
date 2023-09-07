@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: border-box;
+    font-family: "Gilroy";
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .navbar {
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    margin-bottom: 80px;
+    height: 80px;
+    width: 100vw;
+    background-color: #813588;
+    color: #fff;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+  }
+  #logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #logo img {
+    padding-right: 1vh;
+    height: 70px;
+  }
+  
+  #logo h2 {
+    font-size: 1.5vw;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .navoptions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4vw;
+  }
+  .navoptions h4:hover {
+    border-bottom: 2px solid #ff8e32;
+  }
+  .navoptions i {
+    font-size: 1.1vw;
+    font-weight: 700;
+    display: none;
+  }
+  .container{
+    width: 50%;
+    height: 80%;
+    background-color: #ff8e32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px 0 100px 0;
+    margin-top: 90px;
+    margin-bottom: 0;
+    margin-left: 25%;
+  }
+
+  #displayBar{
+    margin-top: 10%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 10%;
+    /* direction: rtl; */
+  }
+  #displayBar input{
+    width: 90%;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    font-size: 3vw;
+    text-align: right;
+    outline: none;
+    /* border-radius: 10%; */
+  }
+  #buttons input{
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 20%;
+    /* height: 50%; */
+    font-size: 1.5vw;
+    margin: 5px;
+    outline: none;
+  }
+  .row{
+    width: 100%;
+    height: 42%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #buttons{
+    width: 50%
+  }
